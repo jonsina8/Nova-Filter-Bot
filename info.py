@@ -172,8 +172,8 @@ EFFECT_IDS = [effect for effect in environ.get('EFFECT_IDS', '510484124575518058
 
 # for Premium 
 IS_PREMIUM = is_enabled('IS_PREMIUM', True)
-OWNER_USERNAME = environ.get("OWNER_USERNAME", "Hansaka_Anuhas")
-PAYMENT_QR_CODE = "https://i.postimg.cc/4xmm21x5/qr-code.jpg" # add your payment qr code link, like upi qr code or any crypto qr code link
+OWNER_USERNAME = environ.get("OWNER_USERNAME", "Abhishek_kumar")
+PAYMENT_QR_CODE = "https://files.catbox.moe/nuztnj.jpg" # add your payment qr code link, like upi qr code or any crypto qr code link
 PAYMENT_ID = "8639254076@ptsbi"  # add your payment id like upi id or crypto address
 
 # Format -- Days: ['CURRENCY', Price]
