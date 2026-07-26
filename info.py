@@ -146,13 +146,13 @@ REQUEST_FORCE_SUB_CHANNEL = environ.get('REQUEST_FORCE_SUB_CHANNEL', '')
 
 # for stream
 IS_STREAM = is_enabled('IS_STREAM', True)
-BIN_CHANNEL = environ.get("BIN_CHANNEL", "Chat id: '-1002552925944")
+BIN_CHANNEL = environ.get("BIN_CHANNEL", "Chat id: -1002552925944")
 if len(BIN_CHANNEL) == 0:
     logger.error('BIN_CHANNEL is missing, exiting now')
     exit()
 else:
     BIN_CHANNEL = int(BIN_CHANNEL)
-URL = environ.get("URL", "Chat id: '-1002552925944")
+URL = environ.get("URL", "Chat id: -1002552925944")
 if len(URL) == 0:
     logger.error('URL is missing, exiting now')
     exit()
@@ -174,7 +174,7 @@ EFFECT_IDS = [effect for effect in environ.get('EFFECT_IDS', '510484124575518058
 IS_PREMIUM = is_enabled('IS_PREMIUM', True)
 OWNER_USERNAME = environ.get("OWNER_USERNAME", "Hansaka_Anuhas")
 PAYMENT_QR_CODE = "https://i.postimg.cc/4xmm21x5/qr-code.jpg" # add your payment qr code link, like upi qr code or any crypto qr code link
-PAYMENT_ID = "mypayment@id"  # add your payment id like upi id or crypto address
+PAYMENT_ID = "8639254076@ptsbi"  # add your payment id like upi id or crypto address
 
 # Format -- Days: ['CURRENCY', Price]
 PREMIUM_PLANS = {
