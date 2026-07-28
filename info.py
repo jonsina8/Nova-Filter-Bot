@@ -82,10 +82,10 @@ else:
     SUPPORT_GROUP = int(SUPPORT_GROUP)
 
 # MongoDB information
-DATA_DATABASE_URL = environ.get('DATA_DATABASE_URL', "mongodb+srv://sumitjk377_db_user:qxUXhQUTIiDV3ZbZ@cluster0.d8pryke.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATA_DATABASE_URL = environ.get('DATA_DATABASE_URL', "mongodb+srv://Fakrudin:fakrudin91056289hay@cluster0.5ilhogs.mongodb.net/?appName=Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Files') 
-FILES_DATABASE_URL = environ.get('FILES_DATABASE_URL', "mongodb+srv://sankark:sankark85693@cluster0.jkc7cwb.mongodb.net/?appName=Cluster0")
-SECOND_FILES_DATABASE_URL = environ.get('SECOND_FILES_DATABASE_URL', "sankark")
+FILES_DATABASE_URL = environ.get('FILES_DATABASE_URL', "mongodb+srv://Fakrudin:fakrudin91056289hay@cluster0.5ilhogs.mongodb.net/?appName=Cluster0")
+SECOND_FILES_DATABASE_URL = environ.get('SECOND_FILES_DATABASE_URL', "Fakrudin")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 
 if len(DATA_DATABASE_URL) == 0 and len(FILES_DATABASE_URL) == 0:
