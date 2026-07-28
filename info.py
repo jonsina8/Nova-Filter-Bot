@@ -146,13 +146,13 @@ REQUEST_FORCE_SUB_CHANNEL = environ.get('REQUEST_FORCE_SUB_CHANNEL', 'https://t.
 
 # for stream
 IS_STREAM = is_enabled('IS_STREAM', True)
-BIN_CHANNEL = environ.get("BIN_CHANNEL", -1002552925944")
+BIN_CHANNEL = environ.get("BIN_CHANNEL", "-1002552925944")
 if len(BIN_CHANNEL) == 0:
     logger.error('BIN_CHANNEL is missing, exiting now')
     exit()
 else:
     BIN_CHANNEL = int(BIN_CHANNEL)
-URL = environ.get("URL", -1002552925944")
+URL = environ.get("URL", "-1002552925944")
 if len(URL) == 0:
     logger.error('URL is missing, exiting now')
     exit()
